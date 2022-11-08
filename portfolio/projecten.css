@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: 'Mohave', sans-serif;
+    /* background-image: url();
+    background-repeat: no-repeat; */
+    
+    
+
+  }
+  #span-name:hover{
+    
+    background-color: red;
+  }
+  #headerh1:hover{
+    color: red;
+  }
+  
+  
+  h1 {
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    
+  }
+
+  p{
+    text-align: left;
+  }
+  .page-header h1 {
+    color: black;
+    height: auto;
+    margin: 0;
+  }
+  
+  .page-header {
+    height: auto;
+    background-color: rgb(192, 192, 5); 
+  }
+  
+  .navbar {
+    /* font-family: Ubuntu, Arial, Helvetica, sans-serif; */
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    border-bottom: solid 1px rgb(190, 236, 234);
+    /* background-color: rgb(190, 236, 234); */
+  
+  }
+  
+  .navbar ul {
+    margin: 0;
+    list-style-type: none;
+    display: inline;
+    padding-right: 0px;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    width: 120px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .navbar a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    padding-top: 10px;
+  }
+  .navbar a:hover,.footer-navbar a:hover {
+    background-color:rgb(192, 192, 5);
+    border: none;
+    border-radius: 5px;
+  }
+
+
+
+
+
+
+  .projects{
+    display: inline-block;
+    margin: 20px 10px;
+    vertical-align: top;
+    width: calc(33% - 20px);
+    text-align: center;
+  }
+  
+  .projects:first-child {
+    margin-left: 150;
+    
+  }
+  .projects img{
+    height: 200px;
+  }
+  
+  figure {
+    margin: 20px 0;
+  }
+  
+  figcaption {
+    font-weight: 300;
+    font-style: italic;
+    color: black;
+    line-height: 1.2;
+  }
+  img {
+    width: 230px;
+  }
+  
+  h2 {
+    color: #757158;
+  }
+  main {
+    width: auto;
+    margin: 40px 0;
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+
+  .page-footer {
+    margin-top: 100px;
+    height: auto;
+    background-color: #ccc;
+    position: relative;
+    bottom: 0;
+  }
+  
+  .footer-navbar {
+    display: inline-block;
+    margin-left: 160px;
+    vertical-align: top;
+  }
+  .footer-navbar ul {
+    display: inline-block;
+    margin: 0;
+    list-style-type: none;
+    padding-inline-start: 0px;
+  }
+  .footer-navbar li {
+    display: block;
+    width: 220px;
+    padding: 10px;
+    text-align: center;
+  }
+  .footer-navbar a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    width: 80px;
+  }
+  #footer-text {
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 0;
+  }
+  
+  .projects a img:hover{
+    opacity: 0.4;
+  }
+
+
+

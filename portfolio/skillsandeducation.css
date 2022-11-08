@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  font-family: 'Mohave', sans-serif;
+  /* background-image: url();
+  background-repeat: no-repeat; */
+  
+  
+
+}
+#span-name:hover{
+    
+  background-color: red;
+}
+#headerh1:hover{
+  color: red;
+}
+
+
+h1 {
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  
+}
+
+p{
+  text-align: left;
+}
+.page-header h1 {
+  color: black;
+  height: auto;
+  margin: 0;
+}
+
+.page-header {
+  height: auto;
+  background-color: rgb(192, 192, 5); 
+}
+
+.navbar {
+  /* font-family: Ubuntu, Arial, Helvetica, sans-serif; */
+  font-weight: 300;
+  display: block;
+  text-align: center;
+  border-bottom: solid 1px rgb(190, 236, 234);
+  /* background-color: rgb(190, 236, 234); */
+
+}
+
+.navbar ul {
+  margin: 0;
+  list-style-type: none;
+  display: inline;
+  padding-right: 0px;
+}
+
+.navbar li {
+  display: inline-block;
+  width: 120px;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+}
+.navbar a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  width: 80px;
+  height: 30px;
+  padding-top: 10px;
+}
+.navbar a:hover,.footer-navbar a:hover {
+  background-color:rgb(192, 192, 5);
+  border: none;
+  border-radius: 5px;
+}
+
+/* skills page start */
+
+.skills{
+  padding: 5rem 0 2.5rem 0;
+}
+.skills > .text{
+  width: 70%;
+  margin: 1.5rem auto;
+  text-align: center;
+}
+.skills .row{
+  margin: 1rem 0;
+}
+.skills .item{
+  padding: 0.5rem;
+  margin: 0.3rem;
+}
+.skills .item-text{
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 600;
+  font-size: 1.3rem;
+  position: relative;
+}
+.skills .item-text span:last-child{
+  position: absolute;
+}
+.skills .item-text .w-90{
+  margin-left: 85%;
+}
+.skills .item-text .w-75{
+  margin-left: 70%;
+}
+.skills .item-text .w-70{
+  margin-left: 65%;
+}
+.skills .item-text .w-50{
+  margin-left: 45%;
+}
+.skills .item-text .w-90{
+  margin-left: 85%;
+}
+.skills .item-text .w-20{
+  margin-left: 15%;
+}
+.progress{
+  margin: 0.8rem 0;
+  border-radius: 10px;
+  height: 16px;
+  width: 100%;
+  background-color: gray;  
+  overflow: hidden;
+}
+.progress-bar{
+  background: greenyellow;
+  height: 100%;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.progress-bar .w-90{
+  width: 90%;
+}
+.progress-bar .w-75{
+  width: 75%;
+}
+.progress-bar .w-70{
+  width: 70%;
+}
+.progress-bar .w-50{
+  width: 50%;
+}
+.progress-bar .w-90{
+  width: 90%;
+}
+.progress-bar .w-20{
+  width: 20%;
+}
+.skills .row{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+.title h1{
+  color: red;
+  font-size: 50px;
+}
+
+
+/* footer */
+.page-footer {
+  margin-top: 100px;
+  height: auto;
+  background-color: #ccc;
+  position: relative;
+  bottom: 0;
+}
+
+.footer-navbar {
+  display: inline-block;
+  margin-left: 160px;
+  vertical-align: top;
+}
+.footer-navbar ul {
+  display: inline-block;
+  margin: 0;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+.footer-navbar li {
+  display: block;
+  width: 220px;
+  padding: 10px;
+  text-align: center;
+}
+.footer-navbar a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  width: 80px;
+}
+#footer-text {
+  font-size: 15px;
+  text-align: center;
+  color: gray;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+  
